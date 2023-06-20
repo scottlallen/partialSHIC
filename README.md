@@ -4,9 +4,15 @@ Steps involving both a bash and Python file with the same root name are used in 
 
 The scripts assume that the GitHub repo is contained within the same local directory, such is the case when downloaded, while training, testing, and empirical data are located within local sub-directories named trainingData/, testingData/, and empiricalData/ respectively. 
 
-Certain data files within the GitHub repo's sub-directory mosquito_data_files/ were too large to upload there, hence the files anc.meru_mela.fa, anc.meru_mela.2L.fa, anc.meru_mela.2R.fa, anc.meru_mela.3L.fa, anc.meru_mela.3R.fa (the preceding five files starting with anc.meru_mela. are all located at http://sesame.uoregon.edu/~adkern/ag1kg_outgroups/), 
+Certain data files within the GitHub repo's sub-directory mosquito_data_files/ were too large to upload there, hence the files;
 
-ftp://ngs.sanger.ac.uk/production/ag1000g/phase1/AR3/accessibility/Anopheles-gambiae-PEST_CHROMOSOMES_AgamP3.accessible.fa, AOM_partial_stats.txt, BFM_partial_stats.txt, BFS_partial_stats.txt, CMS_partial_stats.txt, GAS_partial_stats.txt, GNS_partial_stats.txt, GWA_partial_stats.txt, and UGS_partial_stats.txt 
+anc.meru_mela.fa, anc.meru_mela.2L.fa, anc.meru_mela.2R.fa, anc.meru_mela.3L.fa, anc.meru_mela.3R.fa (the preceding five files starting with anc.meru_mela. 
+
+are all located at http://sesame.uoregon.edu/~adkern/ag1kg_outgroups/), 
+
+ftp://ngs.sanger.ac.uk/production/ag1000g/phase1/AR3/accessibility/Anopheles-gambiae-PEST_CHROMOSOMES_AgamP3.accessible.fa, 
+
+AOM_partial_stats.txt, BFM_partial_stats.txt, BFS_partial_stats.txt, CMS_partial_stats.txt, GAS_partial_stats.txt, GNS_partial_stats.txt, GWA_partial_stats.txt, and UGS_partial_stats.txt 
 
 (the preceding eight files ending in _partial_stats.txt are all located at http://sesame.uoregon.edu/~adkern/ag1kg/shicScanPhaseI/partialStatsAndDafs/) must be downloaded separately into mosquito_data_files/ before running the partialSHIC example run detailed below; within trainingData/ and testingData/, 
 
